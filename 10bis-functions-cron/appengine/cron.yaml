@@ -1,0 +1,8 @@
+cron:
+- description: Delete all tables
+  url: /publish/daily-tick
+  schedule: every 24 hours
+
+- description: Update restaurants data
+  url: /publish/weekly-tick
+  schedule: every saturday 00:00

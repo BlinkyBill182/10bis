@@ -1,0 +1,27 @@
+{
+  "name": "10bis-chrome-extension",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "20": "images/icon20.png",
+    "24": "images/icon24.png",
+    "48": "images/icon48.png",
+    "64": "images/icon64.png",
+    "128": "images/icon128.png",
+    "256": "images/icon256.png",
+    "512": "images/icon512.png"
+  },
+  "content_security_policy": "script-src 'self' https://us-central1-gues10-bis.cloudfunctions.net http://localhost:5000/gues10-bis/us-central1; object-src 'self'",
+  "background": {
+    "scripts": ["moment.min.js", "axios.min.js", "background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "images/icon512.png"
+  },
+  "manifest_version": 2
+}
