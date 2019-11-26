@@ -9,13 +9,6 @@ const guestyLocation = {
     lat: 32.0733456,
 };
 
-const firebaseConfig = {
-    apiKey: "AIzaSyAVw8nOjCCOYAjEMrJOcDc-DIoR3pk20DU",
-    authDomain: "gues10-bis.firebaseapp.com",
-    databaseURL: "https://gues10-bis.firebaseio.com",
-    storageBucket: "gues10-bis.appspot.com"
-};
-const slack_token = 'xoxp-157444359750-220611225393-511260119301-fb1d331a591eaf12220da23538ba59e4';
 const tenBisOrdersChannelId = 'CCJ12AU90'; //10bisorders channel
 // const tenBisOrdersChannelId = 'D6H856C3X'; //Ben
 // const tenBisOrdersChannelId = 'U6GHZ6MBK'; //Slackbot
